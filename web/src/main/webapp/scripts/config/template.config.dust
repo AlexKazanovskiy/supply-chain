@@ -1,0 +1,227 @@
+<h1>Network configuration solver</h1>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <form>
+            {!-----------------------------buttons--------------------------------!}
+            <div class="row form-group">
+                <div class="col-md-2"><a class="btn btn-default form-control" href="#" role="button">New config</a>
+                </div>
+                <div class="col-md-3">
+                    <select id="disabledSelect" class="form-control">
+                        <option value="" selected disabled>Regional warehouses quanity</option>
+                        <option value="0">6 regional warehouses</option>
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <select id="disabledSelect" class="form-control">
+                        <option value="" selected disabled>Cycle length</option>
+                        <option value="0">2 weeks</option>
+                        <option value="1">3 weeks</option>
+                        <option value="2">4 weeks</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <select id="disableSelect" class="form-control">
+                        <option value="" selected disabled>Strahovoi zapas ebana</option>
+                        <option value="0">68.2 %</option>
+                        <option value="1">95.4 %</option>
+                        <option value="2">99.6 %</option>
+                    </select>
+                </div>
+                <div class="col-md-2"><a class="btn btn-default form-control" href="#" role="button">Solve</a></div>
+            </div>
+            {!--------------------------------chart-----------------------------!}
+            <div class="panel panel-default">
+                <div class="panel-body" id="map" style="height: 700px !important;"></div>
+            </div>
+            {!------------------------------matrix--------------------------------!}
+            <div class="panel panel-default">
+                <div class="panel-body table-responsive">
+                    <table class="table table-hover table-condensed">
+                        <tr>
+                            <th></th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+                            <th>th</th>
+
+                        </tr>
+                        <tr>
+                            <td>td</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>td</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>td</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

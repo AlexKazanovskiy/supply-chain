@@ -1,0 +1,22 @@
+{
+  "name": "web",
+  "version": "1.0-SNAPSHOT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "backbone": "~1.2.1",
+    "dustjs-linkedin": "~2.7.2",
+    "requirejs": "~2.1.18",
+    "requirejs-text": "~2.0.14",
+    "backbone-associations": "~0.6.2",
+    "require-css": "~0.1.8",
+    "google-chart": "~1.0.0",
+    "jvectormap": "~2.0.2"
+  }
+}
